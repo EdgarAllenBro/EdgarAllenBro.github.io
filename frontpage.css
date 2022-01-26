@@ -9,9 +9,13 @@ background-color: rgb(0, 83, 192);}
     background-image: 
 url('https://wallpaperaccess.com/full/87548.jpg');
 background-size:cover;
+
 }
 #name{
-    color:rgb(255, 255, 255)
+    background-color:rgb(102, 174, 207);
+    border:5px double rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.74);
 }
 
 #about{
