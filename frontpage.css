@@ -1,4 +1,5 @@
-body{margin:0px;}
+body{margin:0px;
+background-color: rgb(0, 83, 192);}
 #intro{
     display: flex;
     justify-content: center;
@@ -12,3 +13,69 @@ background-size:cover;
 #name{
     color:rgb(255, 255, 255)
 }
+
+#about{
+width:100vw;
+height:50vh;
+background-color:rgba(129, 129, 129, 0.7);
+border-top:10px solid rgba(189, 189, 189, 0.781);
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+#image{
+    height:200px;
+    width:200px;
+    background-image:url('Image.jpg');
+    background-position: center;
+    background-size:cover;
+    border-radius: 50%;
+    margin:20px;
+}
+#aboutMe{
+    font-weight:1000;
+width:60vw;
+font-family: 'Roboto Mono', monospace;
+}
+
+#devStuff{
+    width:100vw;
+    height:50vh;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-top:10px solid rgba(189, 189, 189, 0.781);
+    display: flex;
+    
+    }
+#projects{
+    display: flex;   
+}
+
+h2{
+    position: relative;
+    left:25vw;
+}
+.prjTitle{
+    font-size: 20px;
+}
+.project{
+display: flex;
+align-items: center;
+justify-content:center;
+margin:50px;
+}
+
+.link{
+    background-color:rgba(168, 176, 177, 0.897);
+    border:3px solid black;
+    border-radius: 15px;
+    color:rgb(0, 0, 0);
+    margin:10px;
+}
+.img{
+    height:100px;
+    border:5px double black;
+    border-radius: 10px;
+    margin:10px;
+}
+    
