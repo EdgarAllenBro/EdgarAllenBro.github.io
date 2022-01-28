@@ -52,9 +52,7 @@ font-family: 'Roboto Mono', monospace;
     display: flex;
     
     }
-/* #projectExamples{
-    display: flex;   
-} */
+    
 #projects{
     display: flex;
     flex-direction: column;
