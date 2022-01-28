@@ -35,6 +35,7 @@ align-items: center;
     background-position: center;
     background-size:cover;
     border-radius: 50%;
+    border:7px double black;
     margin:20px;
 }
 #aboutMe{
@@ -51,8 +52,12 @@ font-family: 'Roboto Mono', monospace;
     display: flex;
     
     }
-#projects{
+/* #projectExamples{
     display: flex;   
+} */
+#projects{
+    display: flex;
+    flex-direction: column;
 }
 
 h2{
@@ -64,9 +69,9 @@ h2{
 }
 .project{
 display: flex;
-align-items: center;
+align-items:center;
 justify-content:center;
-margin:50px;
+margin-left:100px;
 }
 
 .link{
@@ -82,4 +87,14 @@ margin:50px;
     border-radius: 10px;
     margin:10px;
 }
-    
+ .cont{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin:20px;} 
+#contacts{
+    display: flex;
+}
+.title{
+    margin-left:40px
+}
